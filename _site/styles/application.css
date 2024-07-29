@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-email {
+  border: 5px solid #b1b4b6;
+  padding: 20px;
+  margin-bottom: 50px;
+  max-width: 40rem;
+}
+.app-email h1, .app-email h2, .app-email h3, .app-email h4 {
+  font-size: 1.125rem;
+  line-height: 1.1111111111;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media (min-width: 40.0625em) {
+  .app-email h1, .app-email h2, .app-email h3, .app-email h4 {
+    font-size: 1.6875rem;
+    line-height: 1.1111111111;
+  }
+}
+@media print {
+  .app-email h1, .app-email h2, .app-email h3, .app-email h4 {
+    font-size: 18pt;
+    line-height: 1.15;
+  }
+}
+
+.app-email__subject {
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b1b4b6;
+}
+
+.app-screenshots__contents,
+.app-screenshots__screenshot {
+  margin-bottom: 60px;
+}
+
+@media print {
+  .app-screenshots {
+    page-break-before: always;
+    page-break-after: always;
+  }
+  .app-screenshots__screenshot {
+    page-break-before: always;
+  }
+  .app-screenshots__screenshot a:after {
+    display: none;
+  }
+}
+/*  HMLR styles for the design history site
+    Note: This file is imported in application.scss
+===================================================== */
+/* HMLR Masthead
+------------------------------- */
+.govuk-header__container {
+  position: relative;
+  margin-bottom: -10px;
+  padding-top: 10px;
+  border-bottom: 10px solid #789904;
+}
+
+.x-govuk-masthead {
+  padding-bottom: 15px;
+  background-color: #f3f2f1;
+  color: #0b0c0c;
+  display: flex;
+}
+
+.x-govuk-masthead__description {
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #0b0c0c;
+}
+
+.x-govuk-masthead__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 40.0625em) {
+  .x-govuk-masthead__title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+.govuk-breadcrumbs {
+  margin-top: 25px;
+}
+
+.govuk-breadcrumbs--inverse .govuk-breadcrumbs__link:link, .govuk-breadcrumbs--inverse .govuk-breadcrumbs__link:visited {
+  color: #0b0c0c;
+}
+
+/* HMLR Sidebar
+------------------------------- */
+.x-govuk-related-navigation {
+  border-top: 2px solid #789904;
+}
+
+/* HMLR Footer
+------------------------------- */
+.govuk-footer__copyright-logo--hmlr {
+  display: inline-block;
+  min-width: 172px; /* $hmlr-footer-logo-width-2x / 2 */
+  padding-top: 73px; /* ($hmlr-footer-logo-height-2x / 2) + 18px (govuk-spacing(2)) */
+  background-image: url("https://hmlr-design-system.herokuapp.com/assets/images/hmlr-logo-grey.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 172px 55px; /* $hmlr-footer-logo-width $hmlr-footer-logo-height */
+  filter: saturate(300%) grayscale(100%) brightness(64%) contrast(350%);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .govuk-footer__copyright-logo--hmlr {
+    background-image: url("https://hmlr-design-system.herokuapp.com/assets/images/hmlr-logo-grey.svg");
+  }
+}
+/* Posts
+------------------------------- */
+app-prose-scope figcaption {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  margin-top: 15px;
+}
+
+@media (min-width: 40.0625em) {
+  .app-prose-scope figcaption {
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.3157894737;
+    margin-top: 10px;
+  }
+}
