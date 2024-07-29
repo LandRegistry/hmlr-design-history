@@ -16,7 +16,7 @@ tags:
 
 The DRS team has been working on improving the transaction selection process for users submitting applications to HM Land Registry. The current system, which relies on users selecting from a large list of transaction types, has been identified as a significant pain point in the user journey.
 
-![Current DRS transaction selection interface](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-001.png "Current DRS transaction selection interface")
+![Current DRS transaction selection interface](/drs/2024-06-25-transactions/img-drs-transactions-001.png "Current DRS transaction selection interface")
 
 ## The challenge
 
@@ -44,10 +44,12 @@ To address these challenges, the UCD team adopted an innovative and multi-facete
 5. **Iterative design**: We developed several design concepts, focusing on simplifying the user journey and guiding users to the correct transaction type.
 
 
-![User intent question and confirmation pattern](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-002.png "User intent question and confirmation pattern")
+![User intent question and confirmation pattern](/drs/2024-06-25-transactions/img-drs-transactions-002.png "User intent question and confirmation pattern")
 
-![AI-powered decision tree concept](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-003.png "AI-powered decision tree concept")
+![AI-powered decision tree concept](/drs/2024-06-25-transactions/img-drs-transactions-003.png "AI-powered decision tree concept")
 
+
+<a href="https://www.figma.com/board/dvTn9L6mEN3IU2MPvDMswW/DRS-AI-Decision-Tree" target="_blank">Click here to explore the AI-powered decision tree concept in Figjam</a>
 
 ## What we did
 
@@ -62,7 +64,7 @@ We made a significant breakthrough by using AI to analyse HMLR forms and generat
 Importantly, this approach was inspired by modern websites and apps that use AI to ask users "What do you want to do?" or "What are you looking for?" when they land on a page. We envisioned scaling this concept to potentially cover the entire service, asking users upfront about their intentions or, in this scenario, what forms they have in front of them, and then guiding them towards their desired goal.
 
 
-![TP1 and TR1 branching illustration](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-004.png "TP1 and TR1 branching illustration")
+![TP1 and TR1 branching illustration](/drs/2024-06-25-transactions/img-drs-transactions-004.png "TP1 and TR1 branching illustration")
 
 ### Stakeholder engagement and feedback
 
@@ -115,7 +117,7 @@ While this new way of working has shown promising results, it hasn't been withou
 
 - **Ongoing advocacy**: We've realised that instilling this collaborative culture is an ongoing process that requires continuous effort and reinforcement from everyone involved.
 
-![Illustration of collaborative design process](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-005.png "Example of collaborative design in Figma")
+![Illustration of collaborative design process](/drs/2024-06-25-transactions/img-drs-transactions-005.png "Example of collaborative design in Figma")
 
 Despite these challenges, we believe that this push for truly collaborative working is crucial for the long-term success of our projects. It allows us to create more robust, technically feasible designs from the outset, reducing rework and improving the overall quality of our output.
 

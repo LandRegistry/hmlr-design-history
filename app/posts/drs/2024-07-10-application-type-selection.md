@@ -14,7 +14,7 @@ tags:
 
 Following the broader work on [Transactions](/drs/transactions/), the team redirected its focus to a critical pain point in the same user journey: the application type selection page. This shift in priority was driven by the need to address the high rate of cancellations and retakes (CRTIs) caused by incorrect application type selection.
 
-[Insert image: Original application type selection page]
+![Current DRS transaction selection interface](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-001.png "Current DRS transaction selection interface")
 
 ## The challenge
 
@@ -37,7 +37,7 @@ To address these challenges, the UCD team adopted a focused and user-centred app
 
 4. **Iterative prototyping**: We developed and refined multiple prototypes based on user feedback and testing results.
 
-[Insert image: Collaborative design session]
+![Collaborative design in Figma](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-002.png "Collaborative design in Figma")
 
 ## What we did
 
@@ -60,7 +60,8 @@ To further reduce errors, we introduced confirmation screens for each applicatio
 2. Listed common scenarios and forms associated with the application type.
 3. Included GDS UI components to highlight important information and potential pitfalls.
 
-[Insert image: Example of a confirmation screen]
+
+![Example of a confirmation screen](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-003.png "Example of a confirmation screen")
 
 ### Improving content and guidance
 
@@ -94,7 +95,15 @@ Different user groups had varying levels of familiarity with HM Land Registry te
 
 Some of our initial design ideas were challenging to implement due to technical limitations. We worked closely with developers to find creative solutions that balanced user needs with technical feasibility.
 
-[Insert image: Diagram showing the final user flow]
+![Diagram showing the final user flow](/drs/2024-07-10-application-type-selection/img-drs-application-type-selection-004.png "Diagram showing the final user flow")
+
+### DRS Prototype
+<a href="https://prototype-drs-transferors-520608808246.herokuapp.com/" target="_blank">DRS Select application type prototype</a>
+
+
+Please note that some links and functionalities outside of these specific journeys may not be operational.
+
+
 
 ## Outcomes and lessons
 
