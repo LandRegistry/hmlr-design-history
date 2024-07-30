@@ -1,5 +1,5 @@
 # HM Land Registry Design History
-A collaborative space for documenting and sharing our design work on GOV.UK services.
+A collaborative space for documenting and sharing our design work.
 
 ## Purpose of this Design History
 This website serves as a central hub for HM Land Registry designers to:
@@ -45,6 +45,6 @@ This website serves as a central hub for HM Land Registry designers to:
 * [GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/): Write documentation using Markdown and publish it using GOV.UK styles.
 
 ## Need Help?
-If you're unsure about anything, reach out to the design leads or check out existing posts for guidance.
+If you're unsure about anything, contact the design leads or check out existing posts for guidance.
 
 Remember, this design history is our collective story. Your contributions help us learn, improve, and showcase our great work!
