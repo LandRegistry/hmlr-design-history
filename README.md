@@ -1,27 +1,50 @@
-# Design history for GOV.UK services
+# HM Land Registry Design History
+A collaborative space for documenting and sharing our design work on GOV.UK services.
 
-A place for you to document your GOV.UK service designs.
+## Purpose of this Design History
+This website serves as a central hub for HM Land Registry designers to:
+* Document and showcase our design work
+* Share progress and decisions with stakeholders
+* Reflect on our design journey and iterations
 
-## Purpose of this project
+## How to Use This Design History
 
-This repository makes it easy to:
+### Creating a New Category
+* If you need to add a new category (effectively a new service) to the site, seek approval from design leads before proceeding.
+* New categories should represent significant service areas or projects.
 
-* screenshot your designs
-* create pages of screenshots to document designs
-* document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
-* print pages of designs
-* make designs shareable and linkable
+### Creating a New Post
+1. Ensure your post will be in the correct service category.
+2. Find an existing post that's similar to what you want to create.
+3. Copy its Markdown file and use it as a template.
+4. Modify the content to fit your new design story.
 
-## Installation and getting started
+### Writing Your Post
+* Use Markdown for formatting. See the Markdown resources below for guidance.
+* Posts written in markdown will automatically be converted to HTML and published on the site.
+* It is recommeneded to write in the voice of the team, not as an individual.
+* At the end of the post, credit the team members involved in the project.
+* Integrate images within your text to tell a cohesive story.
+* Before publishing, have other designers review the post. Multiple perspectives can catch oversights and improve quality.
 
-Read our guide on how to [set up a design history](https://x-govuk.github.io/govuk-design-history/get-started/).
+### Adding Images
+* Place images directly where you want them in your post.
+* Use Markdown image syntax: `![Alt text](path/to/image.jpg "Optional title")`
 
-## Support
+### Publishing Your Post
+* Once you're happy with your post and it has been reviewed, submit it for publication.
 
-This project is maintained by a small number of volunteers working across government.
+## Important Notes
+* This site automatically converts your Markdown into HTML, making it easy to focus on content.
+* Please do not make changes to the site's CSS or structure without approval from design leads.
 
-For questions about using a design history for your service, bug reports or feedback, [submit a new issue](https://github.com/x-govuk/govuk-design-history-template/issues/new).
+## Useful Resources
+* [Basic Markdown Guide](https://x-govuk.github.io/govuk-eleventy-plugin/markdown/): Learn the basics of Markdown formatting.
+* [Advanced Markdown Guide](https://x-govuk.github.io/govuk-eleventy-plugin/markdown-advanced/): Explore additional Markdown syntax for elements like tables, code blocks, and footnotes.
+* [Adding Tags to Posts](https://x-govuk.github.io/govuk-eleventy-plugin/tagging/): Use tags to categorise posts and make content more browseable.
+* [GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/): Write documentation using Markdown and publish it using GOV.UK styles.
 
-## Technical notes
+## Need Help?
+If you're unsure about anything, reach out to the design leads or check out existing posts for guidance.
 
-The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator with the [GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/).
+Remember, this design history is our collective story. Your contributions help us learn, improve, and showcase our great work!
